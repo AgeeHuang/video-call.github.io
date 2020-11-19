@@ -1,0 +1,14 @@
+.client-status__join {
+  min-width: 100px;
+}
+
+.stream-video {
+  height: 240px;
+  background-color: #c7c7c7;
+}
+.local-stream__button {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
