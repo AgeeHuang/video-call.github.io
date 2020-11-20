@@ -15,7 +15,7 @@ export default function RemoteStreamList () {
     );
   }
   return (
-    <Row xs={1} md={streamList.length > 2 ? 2 : 1} className="m-0 px-sm-1">
+    <Row xs={1} md={streamList.length >= 2 ? 2 : 1} className="m-0 px-sm-1">
       {
         streamList.map(stream => (
           <Col key={stream.getId()} className="p-1">
